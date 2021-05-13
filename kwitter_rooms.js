@@ -24,6 +24,12 @@ function addRoom()
 
   firebase.database().ref("/").child(room_name).update({
     purpose : "adding room name"
+   
+   if (room_name = #) {
+  h100 = "You cannot include special characters in your room name.";
+} else {
+  h100 = "";
+}
   });
 
     localStorage.setItem("room_name", room_name);
