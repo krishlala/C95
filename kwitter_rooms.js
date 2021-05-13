@@ -8,7 +8,9 @@
     storageBucket: "kwitter-68077.appspot.com",
     messagingSenderId: "243452173023",
     appId: "1:243452173023:web:ad761df00fa6e77c53676a"
-
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
 
 
   user_name = localStorage.getItem("user_name");
