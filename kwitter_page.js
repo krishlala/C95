@@ -12,7 +12,6 @@
   firebase.initializeApp(firebaseConfig);
 
 
-
 	user_name = localStorage.getItem("user_name");
 	room_name = localStorage.getItem("room_name");
 
